@@ -1,5 +1,6 @@
 # TaskMaster
 Boost Your Productivity with Timers and To-Do Lists.
+
 "TaskMaster" is a web app that combines the power of timers and to-do lists to help you stay on task and get things done. With its intuitive interface, you can easily create and organize your to-do list and use the built-in timer to keep yourself focused and productive.
 
 But what sets "TaskMaster" apart from other productivity apps is its dynamic progress tracking feature. "TaskMaster" tracks your progress as you work, providing real-time calculations of your productivity. For instance, the app calculates the percentage of work completed based on the total hours worked using the formula (hours / 8) * 100. So, if you work for 6 hours, the app will show a progress of 75%.
