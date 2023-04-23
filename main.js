@@ -228,7 +228,7 @@ function upgradeParcentage() {
             timerStartTime = undefined;
         }
     } else {
-        alert('You cannot save the timer at this time');
+        alert('It takes 5 hours or more to store value');
         sec.textContent = '00';
         min.textContent = '00';
         hrs.textContent = '00';
