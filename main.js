@@ -199,9 +199,9 @@ let quality = 0;
 function upgradeParcentage() {
     functionStopTimer();
     const hours = parseInt(hrs.textContent);
-    if (hours > 3) {
+    if (hours > 5) {
         if (confirm('Are you sure you want to save the timer?')) {
-            percentage = (hours / 8) * 100;
+            percentage = (hours / 12) * 100;
             const amountOfTasks = tasks.length;
             const amountOfDone = tasks.filter(task => task.done).length;
             complete = amountOfTasks === 0 ? 0 : Math.floor((amountOfDone / amountOfTasks) * 100);
